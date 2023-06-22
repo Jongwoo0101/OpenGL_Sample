@@ -6,6 +6,7 @@ find_package(GLUT REQUIRED)
 
 include_directories(${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS})
 
-add_executable(OpenGL Main/tetrahedron.cpp)
+add_executable(OpenGL Main/triangle.cpp)
 
-target_link_libraries(OpenGL ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+target_link_libraries(OpenGL ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
+

@@ -1,5 +1,9 @@
 #include <glut.h>
 #include <iostream>
+
+
+#define GL_SILENCE_DEPRECATION
+
 GLfloat vertices[] = {
         -0.5f, -0.5f, 0.0f, // 왼쪽 아래
         0.5f, -0.5f, 0.0f, // 오른쪽 아래
